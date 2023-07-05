@@ -29,3 +29,11 @@ that it received back from AWS IoT MQTT
 
 2. The awsiotsdk python pip installed
 (do   pip3 -r requirements.txt )
+
+## See also
+
+https://repost.aws/knowledge-center/iot-core-publish-mqtt-messages-python
+
+gives some manual details of how to create a test "thing", etc.
+
+If requested, I might create scripts to do that for people
