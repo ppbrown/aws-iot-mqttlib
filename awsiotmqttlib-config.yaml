@@ -19,4 +19,4 @@ config:
   rootCaPath: "rootCA.pem"
   thingName: "iotlib-device"
   awsRegion: "us-west-2"
-  iotDataEndpoint: "az4u3hiaocf2l-ats.iot.us-west-2.amazonaws.com"
+  iotDataEndpoint: "XXXXXXXXXXXXXX-ats.iot.us-west-2.amazonaws.com"
