@@ -1,0 +1,20 @@
+---
+# This is a config file for iotlib.py
+# 
+# NOTE1: You will need to manually set the value for
+# iotDataEndpoint
+# Find the appropriate value for you via IotCore -> Settings
+# eg:
+#  https://us-west-2.console.aws.amazon.com/iot/home?region=us-west-2#/settings
+#
+# NOTE2: copy in appropriate key files to the given locations, or edit 
+# to point to where your IoT files are
+# 
+# NOTE3: thingName is only used as the "client_id" string
+config:
+  certificateFilePath: "cert.pem"
+  privateKeyPath: "privkey.pem"
+  rootCaPath: "rootCA.pem"
+  thingName: "iotlib-device"
+  awsRegion: "us-west-2"
+  iotDataEndpoint: "az4u3hiaocf2l-ats.iot.us-west-2.amazonaws.com"
