@@ -36,4 +36,7 @@ https://repost.aws/knowledge-center/iot-core-publish-mqtt-messages-python
 
 gives some manual details of how to create a test "thing", etc.
 
-If requested, I might create scripts to do that for people
+If requested, I might create scripts to do that for people.
+
+Additionally, there is a related "workshop" at
+https://catalog.us-east-1.prod.workshops.aws/workshops/7c2b04e7-8051-4c71-bc8b-6d2d7ce32727/en-US/thing-groups/static-thing-groups

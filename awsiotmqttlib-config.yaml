@@ -10,7 +10,9 @@
 # NOTE2: copy in appropriate key files to the given locations, or edit 
 # to point to where your IoT files are
 # 
-# NOTE3: thingName is only used as the "client_id" string
+# NOTE3: thingName is used as the "client_id" string.
+# That being said, if you want to make use of Policies brought in by
+# Thing groups, you must EXACTLY MATCH the thingName for your cert
 config:
   certificateFilePath: "cert.pem"
   privateKeyPath: "privkey.pem"
