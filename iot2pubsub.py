@@ -7,7 +7,7 @@
 
 import time
 
-exec(open("awsiotmqttlib.py").read())
+from awsiotmqttlib import create_iot_connection
 
 TESTTOPIC = "dt/test/subtopic"
 

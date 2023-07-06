@@ -1,11 +1,17 @@
 #!/usr/bin/python3
 
 
-# Call this code with:
-#  if os.path.exists("awsiotmqttlib.py"):
-#  exec(open("awsiotmqttlib.py").read())
+# To use this code, either copy the file to your code directory,
+# and use
 #
-#  And then you can use function create_iot_connection()
+#   from awsiotmqttlib import create_iot_connection
+#
+# or keep it someplace common, and use
+#
+#  if os.path.exists("awsiotmqttlib.py"):
+#    exec(open("awsiotmqttlib.py").read())
+#
+# Then you can use function create_iot_connection()
 #
 # The code requires:
 # 1 
