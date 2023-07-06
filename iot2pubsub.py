@@ -34,6 +34,9 @@ mqtt_connection = create_iot_connection()
 print("connect result=")
 print (mqtt_connection.connect().result())
 
+# If you want to know what thingName was used in 
+# the config, just reference
+#   mqtt_connection.client_id
 
 def subscribe_topic(message_topic):
     print("Subscribing to topic '{}'...".format(message_topic))
